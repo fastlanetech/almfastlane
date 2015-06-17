@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="technology.fastlane.rtc" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>ALM Fastlane</name>
+<widget id="technology.fastlane.rtc" version="0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>ALM Fastlane App</name>
     <description>
         App da Fastlane para RTC e TFS
     </description>
@@ -17,7 +17,7 @@
     <preference name="stay-in-webview" value="false" />
     <preference name="ios-statusbarstyle" value="black-opaque" />
     <preference name="detect-data-types" value="true" />
-    <preference name="exit-on-suspend" value="true" />
+    <preference name="exit-on-suspend" value="false" />
     <preference name="show-splash-screen-spinner" value="true" />
     <preference name="BackgroundColor" value="0xff0000ff"/>
     <preference name="auto-hide-splash-screen" value="true" />
@@ -26,6 +26,7 @@
     <preference name="TopActivityIndicator" value="white"/>
     <preference name="UIWebViewDecelerationSpeed" value="fast" />
     <preference name="android-installLocation" value="auto" />
+    <preference name="phonegap-version" value="3.7.0" />
     
 <gap:plugin name="org.apache.cordova.battery-status" version="0.2.11" />
 <gap:plugin name="org.apache.cordova.camera" version="0.3.2" />
